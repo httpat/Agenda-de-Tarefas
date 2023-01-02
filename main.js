@@ -14,10 +14,10 @@ $(document).ready(function(){
 
         $(`<li> ${valorDaTarefa} </li>`).appendTo(novaTarefa);
         $(novaTarefa).appendTo('ol');
-        novatarefa.addEventListener("click", risco);})}
+        })}
 )
 
-$( 'ol' ).on( "click", function() {
+$( 'li' ).on( "click", function() {
     $( this ).css( "text-decoration", "line-through" );
   });
 
